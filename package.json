@@ -1,0 +1,17 @@
+{
+  "name": "OdenStyle",
+  "version": "1.0.0",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-aigis": "pxgrid/gulp-aigis",
+    "gulp-pleeease": "^2.0.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TAM inc."
+}

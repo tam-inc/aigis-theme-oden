@@ -1,0 +1,85 @@
+/*
+---
+name: モジュール・タイトル
+tag:
+  - contents
+---
+
+モジュールのタイトルが入ります。
+
+```html
+<div class="aigis-module__heading">Module Title</div>
+```
+
+こんな感じです。
+*/
+.aigis-module__heading {
+  font-size: 18px;
+  font-weight: bold;
+  border-left: 8px solid $color-accent;
+  margin: 100px 0 30px;
+  padding: 5px 0 5px 15px;
+}
+
+
+/*
+---
+name: プレビュー
+tag: contents
+---
+
+```html
+<div class="aigis-preview">プレビュー</div>
+```
+*/
+.aigis-preview {
+  border: 1px solid $color-border;
+  padding: 2em;
+  margin: 2em 0;
+}
+
+.aigis-codeblock .editor {
+  border: 1px solid $color-border;
+  padding: 1em;
+  margin-top: 2em;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+/*
+---
+name: カラーパレット
+tag: contents
+---
+
+```html
+<ul class="aigis-colorPalette">
+  <li class="aigis-colorPalette__item" data-color="#888" style="background-color:#888;"></li>
+  <li class="aigis-colorPalette__item" data-color="#f88" style="background-color:#f88;"></li>
+  <li class="aigis-colorPalette__item" data-color="#8888ff" style="background-color:#88f;"></li>
+</ul>
+```
+*/
+.aigis-colorPalette {
+  overflow: hidden;
+  list-style: none;
+  margin: 60px 0;
+
+  &__item {
+    float: left;
+    width: 185px;
+    height: 120px;
+
+    &:after {
+      display: inline-block;
+      content: attr(data-color)"";
+      font-size: 1.1rem;
+      background-color: #fff;
+      padding: 4px 8px;
+      margin: 8px 0 0 8px;
+      border-radius: 3px;
+    }
+  }
+}

@@ -1,0 +1,314 @@
+.aigis-codeblock,
+atom-text-editor,
+atom-text-editor::shadow {
+  background-color: #f8f8f8;
+  color: #333;
+}
+.aigis-codeblock .gutter,
+atom-text-editor .gutter,
+atom-text-editor::shadow .gutter {
+  background-color: #fff;
+  color: #999;
+}
+.aigis-codeblock .gutter .line-number.cursor-line,
+atom-text-editor .gutter .line-number.cursor-line,
+atom-text-editor::shadow .gutter .line-number.cursor-line {
+  background-color: #f5f5f5;
+  color: #333;
+}
+.aigis-codeblock .has-selection .gutter .line-number.cursor-line,
+atom-text-editor .has-selection .gutter .line-number.cursor-line,
+atom-text-editor::shadow .has-selection .gutter .line-number.cursor-line {
+  background-color: #b0d6ff;
+}
+.aigis-codeblock .gutter .line-number.cursor-line-no-selection,
+atom-text-editor .gutter .line-number.cursor-line-no-selection,
+atom-text-editor::shadow .gutter .line-number.cursor-line-no-selection {
+  color: #333;
+}
+.aigis-codeblock .wrap-guide,
+atom-text-editor .wrap-guide,
+atom-text-editor::shadow .wrap-guide {
+  color: #c0c0c0;
+}
+.aigis-codeblock .indent-guide,
+atom-text-editor .indent-guide,
+atom-text-editor::shadow .indent-guide {
+  color: #c0c0c0;
+}
+.aigis-codeblock .invisible-character,
+atom-text-editor .invisible-character,
+atom-text-editor::shadow .invisible-character {
+  color: #c0c0c0;
+}
+.aigis-codeblock .search-results .marker .region,
+atom-text-editor .search-results .marker .region,
+atom-text-editor::shadow .search-results .marker .region {
+  background-color: transparent;
+  border: #c0c0c0;
+}
+.aigis-codeblock .search-results .marker.current-result .region,
+atom-text-editor .search-results .marker.current-result .region,
+atom-text-editor::shadow .search-results .marker.current-result .region {
+  border: #333;
+}
+.aigis-codeblock .cursor,
+atom-text-editor .cursor,
+atom-text-editor::shadow .cursor {
+  border-color: #000;
+}
+.aigis-codeblock .line-number.cursor-line-no-selection,
+atom-text-editor .line-number.cursor-line-no-selection,
+atom-text-editor::shadow .line-number.cursor-line-no-selection,
+.aigis-codeblock .line.cursor-line,
+atom-text-editor .line.cursor-line,
+atom-text-editor::shadow .line.cursor-line {
+  background-color: #f5f5f5;
+}
+.aigis-codeblock .line.highlight-line,
+atom-text-editor .line.highlight-line,
+atom-text-editor::shadow .line.highlight-line {
+  background: #f5f5f5 !important;
+}
+.aigis-codeblock .has-selection .line.highlight-line,
+atom-text-editor .has-selection .line.highlight-line,
+atom-text-editor::shadow .has-selection .line.highlight-line {
+  background: transparent !important;
+}
+.aigis-codeblock .highlights .highlight-selected .region,
+atom-text-editor .highlights .highlight-selected .region,
+atom-text-editor::shadow .highlights .highlight-selected .region {
+  background: transparent;
+  border-color: #e5e5e5;
+  border-radius: 2px;
+}
+.aigis-codeblock .highlights .selection .region,
+atom-text-editor .highlights .selection .region,
+atom-text-editor::shadow .highlights .selection .region {
+  background-color: #b0d6ff;
+}
+.aigis-codeblock .comment,
+atom-text-editor .comment,
+atom-text-editor::shadow .comment {
+  color: #969896;
+}
+.aigis-codeblock .constant,
+atom-text-editor .constant,
+atom-text-editor::shadow .constant,
+.aigis-codeblock .variable.other.constant,
+atom-text-editor .variable.other.constant,
+atom-text-editor::shadow .variable.other.constant {
+  color: #0086b3;
+}
+.aigis-codeblock .entity,
+atom-text-editor .entity,
+atom-text-editor::shadow .entity,
+.aigis-codeblock .entity.name,
+atom-text-editor .entity.name,
+atom-text-editor::shadow .entity.name {
+  color: #795da3;
+}
+.aigis-codeblock .variable.parameter.function,
+atom-text-editor .variable.parameter.function,
+atom-text-editor::shadow .variable.parameter.function {
+  color: #333;
+}
+.aigis-codeblock .entity.name.tag,
+atom-text-editor .entity.name.tag,
+atom-text-editor::shadow .entity.name.tag {
+  color: #63a35c;
+}
+.aigis-codeblock .keyword,
+atom-text-editor .keyword,
+atom-text-editor::shadow .keyword {
+  color: #a71d5d;
+}
+.aigis-codeblock .storage,
+atom-text-editor .storage,
+atom-text-editor::shadow .storage,
+.aigis-codeblock .storage.type,
+atom-text-editor .storage.type,
+atom-text-editor::shadow .storage.type {
+  color: #a71d5d;
+}
+.aigis-codeblock .storage.modifier.package,
+atom-text-editor .storage.modifier.package,
+atom-text-editor::shadow .storage.modifier.package,
+.aigis-codeblock .storage.modifier.import,
+atom-text-editor .storage.modifier.import,
+atom-text-editor::shadow .storage.modifier.import,
+.aigis-codeblock .storage.type.java,
+atom-text-editor .storage.type.java,
+atom-text-editor::shadow .storage.type.java {
+  color: #333;
+}
+.aigis-codeblock .string,
+atom-text-editor .string,
+atom-text-editor::shadow .string,
+.aigis-codeblock .punctuation.definition.string,
+atom-text-editor .punctuation.definition.string,
+atom-text-editor::shadow .punctuation.definition.string,
+.aigis-codeblock .string .punctuation.section.embedded .source,
+atom-text-editor .string .punctuation.section.embedded .source,
+atom-text-editor::shadow .string .punctuation.section.embedded .source {
+  color: #183691;
+}
+.aigis-codeblock .support,
+atom-text-editor .support,
+atom-text-editor::shadow .support {
+  color: #0086b3;
+}
+.aigis-codeblock .meta.property-name,
+atom-text-editor .meta.property-name,
+atom-text-editor::shadow .meta.property-name {
+  color: #0086b3;
+}
+.aigis-codeblock .variable,
+atom-text-editor .variable,
+atom-text-editor::shadow .variable {
+  color: #333;
+}
+.aigis-codeblock .variable.other,
+atom-text-editor .variable.other,
+atom-text-editor::shadow .variable.other {
+  color: #333;
+}
+.aigis-codeblock .invalid.deprecated,
+atom-text-editor .invalid.deprecated,
+atom-text-editor::shadow .invalid.deprecated {
+  color: #b52a1d;
+}
+.aigis-codeblock .invalid.illegal,
+atom-text-editor .invalid.illegal,
+atom-text-editor::shadow .invalid.illegal {
+  font-style: italic;
+  text-decoration: underline;
+  color: #f8f8f8;
+  background-color: #b52a1d;
+}
+.aigis-codeblock .string .source,
+atom-text-editor .string .source,
+atom-text-editor::shadow .string .source {
+  color: #333;
+}
+.aigis-codeblock .string .variable,
+atom-text-editor .string .variable,
+atom-text-editor::shadow .string .variable {
+  color: #0086b3;
+}
+.aigis-codeblock .string.regexp,
+atom-text-editor .string.regexp,
+atom-text-editor::shadow .string.regexp {
+  color: #183691;
+}
+.aigis-codeblock .string.regexp.character-class,
+atom-text-editor .string.regexp.character-class,
+atom-text-editor::shadow .string.regexp.character-class,
+.aigis-codeblock .string.regexp .constant.character.escape,
+atom-text-editor .string.regexp .constant.character.escape,
+atom-text-editor::shadow .string.regexp .constant.character.escape,
+.aigis-codeblock .string.regexp .source.ruby.embedded,
+atom-text-editor .string.regexp .source.ruby.embedded,
+atom-text-editor::shadow .string.regexp .source.ruby.embedded,
+.aigis-codeblock .string.regexp .string.regexp.arbitrary-repitition,
+atom-text-editor .string.regexp .string.regexp.arbitrary-repitition,
+atom-text-editor::shadow .string.regexp .string.regexp.arbitrary-repitition {
+  color: #183691;
+}
+.aigis-codeblock .string.regexp .constant.character.escape,
+atom-text-editor .string.regexp .constant.character.escape,
+atom-text-editor::shadow .string.regexp .constant.character.escape {
+  font-weight: bold;
+  color: #63a35c;
+}
+.aigis-codeblock .support.constant,
+atom-text-editor .support.constant,
+atom-text-editor::shadow .support.constant {
+  color: #0086b3;
+}
+.aigis-codeblock .support.variable,
+atom-text-editor .support.variable,
+atom-text-editor::shadow .support.variable {
+  color: #0086b3;
+}
+.aigis-codeblock .meta.module-reference,
+atom-text-editor .meta.module-reference,
+atom-text-editor::shadow .meta.module-reference {
+  color: #0086b3;
+}
+.aigis-codeblock .markup.list,
+atom-text-editor .markup.list,
+atom-text-editor::shadow .markup.list {
+  color: #693a17;
+}
+.aigis-codeblock .markup.heading,
+atom-text-editor .markup.heading,
+atom-text-editor::shadow .markup.heading,
+.aigis-codeblock .markup.heading .entity.name,
+atom-text-editor .markup.heading .entity.name,
+atom-text-editor::shadow .markup.heading .entity.name {
+  font-weight: bold;
+  color: #1d3e81;
+}
+.aigis-codeblock .markup.quote,
+atom-text-editor .markup.quote,
+atom-text-editor::shadow .markup.quote {
+  color: #008080;
+}
+.aigis-codeblock .markup.italic,
+atom-text-editor .markup.italic,
+atom-text-editor::shadow .markup.italic {
+  font-style: italic;
+  color: #333;
+}
+.aigis-codeblock .markup.bold,
+atom-text-editor .markup.bold,
+atom-text-editor::shadow .markup.bold {
+  font-weight: bold;
+  color: #333;
+}
+.aigis-codeblock .markup.raw,
+atom-text-editor .markup.raw,
+atom-text-editor::shadow .markup.raw {
+  color: #0086b3;
+}
+.aigis-codeblock .markup.deleted,
+atom-text-editor .markup.deleted,
+atom-text-editor::shadow .markup.deleted,
+.aigis-codeblock .meta.diff.header.from-file,
+atom-text-editor .meta.diff.header.from-file,
+atom-text-editor::shadow .meta.diff.header.from-file {
+  color: #bd2c00;
+  background-color: #ffecec;
+}
+.aigis-codeblock .markup.inserted,
+atom-text-editor .markup.inserted,
+atom-text-editor::shadow .markup.inserted,
+.aigis-codeblock .meta.diff.header.to-file,
+atom-text-editor .meta.diff.header.to-file,
+atom-text-editor::shadow .meta.diff.header.to-file {
+  color: #55a532;
+  background-color: #eaffea;
+}
+.aigis-codeblock .meta.diff.range,
+atom-text-editor .meta.diff.range,
+atom-text-editor::shadow .meta.diff.range {
+  font-weight: bold;
+  color: #795da3;
+}
+.aigis-codeblock .meta.diff.header,
+atom-text-editor .meta.diff.header,
+atom-text-editor::shadow .meta.diff.header {
+  color: #0086b3;
+}
+.aigis-codeblock .meta.separator,
+atom-text-editor .meta.separator,
+atom-text-editor::shadow .meta.separator {
+  font-weight: bold;
+  color: #1d3e81;
+}
+.aigis-codeblock .meta.output,
+atom-text-editor .meta.output,
+atom-text-editor::shadow .meta.output {
+  color: #1d3e81;
+}

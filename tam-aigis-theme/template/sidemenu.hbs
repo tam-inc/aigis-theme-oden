@@ -1,0 +1,14 @@
+<div class="aigis-sidemenu">
+  <header class="aigis-title">
+    <a href="{{root}}index.html">{{config.name}}</a>
+  </header>
+
+  <nav class="aigis-tags">
+    <a class="aigis-tags__item" href="{{root}}color.html">Color Palette</a>
+    {{#if tag}}
+      {{#each tag}}
+        <a class="aigis-tags__item aigis-tags__item--{{name}}" href="{{href}}">{{name}}</a>
+      {{/each}}
+    {{/if}}
+  </nav>
+</div>

@@ -1,0 +1,7 @@
+name: OdenStyle
+source: ./tam-aigis-theme/styles/
+dependencies: ./tam-aigis-theme/assets/
+index: ./aigis_index.md
+dest: ./styleguide
+template: ./tam-aigis-theme/template
+highlight_theme: duotone-light
